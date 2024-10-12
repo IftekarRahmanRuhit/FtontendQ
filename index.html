@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" data-theme= "light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./assets/home.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/66755421d9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        .font-manrope{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                'btn-primary': '#ABEF5F',
+                'btn-secondary': '#ABEF5F80',
+
+              },
+              backgroundImage: {
+                banner: "url('./images/banner.jpg')",
+                
+              }
+            }
+          }
+        }
+      </script>
+    <title>FrontendQ</title>
+</head>
+<body class="font-manrope bg-indigo-50">
+    <!-- header  -->
+    <header class="w-11/12 mx-auto py-4">
+        <nav class="">
+            <div class="navbar bg-indigo-50">
+                <div class="navbar-start">
+                  <div class=" hidden dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      <li class="font-extrabold"><a>Home</a></li>
+                      <li><a href="">CSS</a></li>
+                      <li><a href="">JavaScript</a></li>
+                      <li><a>React</a></li>
+                      <li><a href="">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="bg-btn-primary text-black rounded-full px-2 py-1 text-xs line">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;""></i>
+                  </div>
+                  <p class="text-2xl font-extrabold ml-1 ">FrontendQ</p>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-gray-700">
+                    <li class="font-extrabold"><a>Home</a></li>
+                    <li class="text-gray-700"><a href="">CSS</a></li>
+                    <li><a href="">JavaScript</a></li>
+                    <li><a>React</a></li>
+                    <li><a href="">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-3">
+                    <div class="hidden md:block border border-gray-200  py-1 px-2 rounded-full bg-gray-100 text-text-color">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+    
+                  <a class="hidden md:block md:flex btn bg-btn-primary text-text-color rounded-3xl font-black">Download Pdf <div class="bg-text-color text-white rounded-full px-1 py-1">
+                    <i class="fa-solid fa-arrow-right fa-rotate-by" style="--fa-rotate-angle: -45deg;""></i>
+                  </div></a>
+                  <div class=" md:hidden dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden border-gray-200 bg-gray-100 rounded-full text-lg">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow right-0">
+                      <li class="font-extrabold"><a>Home</a></li>
+                      <li><a href="">CSS</a></li>
+                      <li><a href="">JavaScript</a></li>
+                      <li><a>React</a></li>
+                      <li><a href="">Contact Us</a></li>
+                    </ul>
+                  </div>
+    
+                </div>
+              </div>
+         </nav>
+    </header>
+
+    <main>
+
+
+
+    </main>
+
+
+
+</body>
+</html>
